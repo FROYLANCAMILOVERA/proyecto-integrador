@@ -259,7 +259,21 @@ main{
   /* Información de contacto */
   
   .informacion-contacto {
-    margin-top: 20px;
+    color: #0d0d0d;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    max-width: 380px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #b8b8b8;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    box-shadow: 18px -18px 16px 3px rgba(0, 0, 0, 0.75);
+  margin-top: 40px;
+    
   }
   
   .informacion-contacto p {

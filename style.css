@@ -334,6 +334,11 @@ max-width: 1100px;
 }
 
 @media(max-width:991px){
+    main{
+        min-height: 100vh;
+    }
+
+
     .footer-row{
         text-align: center;
     }
@@ -357,3 +362,9 @@ max-width: 1100px;
         }
 }
 
+
+@media(max-width:400px){
+    main{
+        min-height: 130vh;
+    }
+}
